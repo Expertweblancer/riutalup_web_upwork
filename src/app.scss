@@ -1,0 +1,146 @@
+@import "/fonts/hermetica.css";
+@import "/fonts/astro.css";
+
+a {
+  text-decoration: none;
+}
+.m-0 {
+  margin: 0px;
+}
+.m-8 {
+  margin: 8px !important;
+}
+.ml-8 {
+  margin-left: 8px !important;
+}
+.ml-12 {
+  margin-left: 12px !important;
+}
+.mr-4 {
+  margin-right: 4px !important;
+}
+.mr-8 {
+  margin-right: 8px !important;
+}
+.mr-12 {
+  margin-right: 12px !important;
+}
+.mx-auto {
+  margin: 0px auto;
+}
+
+.mt-4 {
+  margin-top: 4px !important;
+}
+
+.mb-4 {
+  margin-bottom: 4px !important;
+}
+.mb-8 {
+  margin-bottom: 8px !important;
+}
+.mb-16 {
+  margin-bottom: 16px !important;
+}
+.mb-32 {
+  margin-bottom: 32px !important;
+}
+
+.ml-16 {
+  margin-left: 16px !important;
+}
+
+.p-0 {
+  padding: 0px !important;
+}
+.p-16 {
+  padding: 16px !important;
+}
+.p-24 {
+  padding: 24px !important;
+}
+
+.h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+.flex {
+  display: flex !important;
+}
+.flex-between {
+  justify-content: space-between !important;
+}
+.flex-center {
+  justify-content: center !important;
+}
+.items-center {
+  align-items: center;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.capitalize {
+  text-transform: capitalize !important;
+}
+.text-muted {
+  color: rgba($color: #000000, $alpha: 0.37);
+}
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.login-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  max-width: 400px;
+}
+
+[class^="hermetica-"]::before,
+[class*=" hermetica-"]::before {
+  font-size: 21px !important;
+}
+
+.transitEvent {
+  float: left;
+  padding: 36px;
+  width: 240px;
+}
+
+.event-date-time {
+
+}
+
+.artwork {
+  float: right;
+      height: 210px;
+      padding: 36px 74px;
+}
+
+.artwork img {
+  border-radius: 50%;
+}
+
+.transitCard {
+border: 1px solid #00000026;
+height: 100%;
+border-radius: 22px;
+box-shadow: #00000026 2px 2px 5px;
+}
+
+.deg {
+  vertical-align: top;
+}
